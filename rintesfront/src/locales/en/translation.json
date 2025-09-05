@@ -1,0 +1,340 @@
+{
+    "greeting": "Hello, world!",
+    "selectLanguage": "Select Language",
+    "profile":"Profile",
+    "myorders":"My orders",
+    "orderstodeliver":"Orders to deliver",
+    "logout":"Logout",
+    "login":"Login",
+    "myproducts":"My products",
+    "orderclients":"Customer orders",
+    "dashboard":"Dashboard",
+    "provinces":"Provinces",
+    "doctypes":"Types of documents",
+    "categories":"Categories",
+    "availablecolors":"Available colors",
+    "availablesizes":"Available sizes",
+    "productcondition":"Product use condition",
+    "productquality":"Product quality",
+    "products":"Products",
+    "orders":"Orders",
+    "userslist":"Users List",
+    "Support":"Support",
+    "tipoestabelecimento":"Tipos de Estabelecimento",
+    "stayconnected":"Stay connected with us on the following social networks",
+    "everythinginhands":"Everything in your hands",
+    "wedeliveryourorder":"We deliver your orders quickly, easily and safely",
+    "importantlinks":"Important links",
+    "howtobuy":"How to buy",
+    "howtobesupplier":" How to become a supplier",
+    "termsandcondition":"Terms and conditions",
+    "reservedrights":"All rights are reserved",
+    "mozambique":"Mozambique",
+    "maputocity":"Maputo city",
+    "delivertime":"Deliveries available to Maputo city and province from",
+    "sellernotauthorizedyet":"Your account has not yet been authorized to display your products. For more information, please contact Nhiquela Shop using the contact details below.",
+    "onsale":"On sale",
+    "featuredproducts":"Featured products",
+    "contacts":"Contacts",
+    "as": "to",
+    "from100to500":"From 100 to 500 MT",
+    "from500to5000":"From 500 to 5000 MT",
+    "from5000to10000":"From 5000 to 10000 MT",
+    "from10000to20000":"From 10000 to 20000 MT",
+    "from20000up":"From 20000 above",
+    "morethan1stars":"More than 1 star",
+    "morethan2stars":"More than 2 stars",
+    "morethan3stars":"More than 3 stars",
+    "morethan4stars":"More than 4 stars",
+    "allsuppliers":"All suppliers",
+    "allcategories":"All Categories",
+    "intervalpricing":"Interval pricing",
+    "allprices":"All prices",
+    "location":"Location",
+    "alllocations":"All Locations",
+    "scores":"Rating",
+    "suppliersnotfound":"Suppliers not found",
+    "suppliersnotadd":"There are no suppliers",
+    "Productsforyou":"Products for you",
+    "therearenoaddedproducts":"There are no added products",
+    "showmore":"Show more",
+    "thebestsuppliers":"The best suppliers",
+    "searchproducts":"Search Products",
+    "resultfound":"Result(s) found",
+    "orderby":"Order by",
+    "newproducts":"New Products",
+    "lowtohigh":"Prices: Low to High",
+    "hightolow":"Prices: High to Low",
+    "avgcustomerreviews":"Avg: Customer Reviews",
+    "productsnotfound":"Products not found",
+    "privacydata":"Privacy of your data",
+    "moneybackguarantee":"Money back guarantee",
+    "securepayments":"Secure Payments",
+    "homescreen":"Home Screen",
+    "phone":"Phone",
+    "password":"Password",
+    "createaccount":"Create account",
+    "newaccount":"New Account",
+    "forgotpassword":"Forgot password",
+    "updatepassword":"Update password",
+    "address":"Address",
+    "paymentmethods":"Payment methods",
+    "deliveryoptions":"Delivery Options",
+    "confirmorder":"Confirm order",
+    "createproduct":"Create Product",
+    "outofstock":"Out of stock",
+    "deliveryaddress":"Delivery address",
+    "deliveryaddressdetails":"Delivery address details",
+    "nameoforderreceiver":"Name of order receiver",
+    "numbertocall":"Number to call",
+    "alternativenumberoptional":"Alternative number (optional)",
+    "deliveryplace":"Delivery city",
+    "next":"Next",
+    "additionalinformation":"Additional information about your address",
+    "select":"Select",
+    "openstore": "Open Store",
+    "closestore":"Close Store",
+    "paymentmethod":"Payment Method",
+    "providemoredetails":"Provide more details to make it easier for the delivery person to locate you",
+    "nodelivery":"No delivery",
+    "includedelivery":"Include delivery [Max. 20 kg load]",
+    "deliverydetails":"Delivery Details",
+    "changedelivdetails":"Change delivery details",
+    "changepayment":"Change payment method",
+    "productsinthecart":"Products in the cart",
+    "size":"Size",
+    "color":"Color",
+    "product":"Product",
+    "placeorder":"Place order",
+    "deliveryfee":"Delivery fee",
+    "changedelivoptions":"Change delivery options",
+    "priceofproducts":"Price of products",
+    "trackorder":"Track order",
+    "request":"Request",
+    "shopping":"Shopping",
+    "shoppingcart":"Shopping cart",
+    "emptycart":"Empty cart",
+    "order":"Order",
+    "deliveredon":"Delivered on the",
+    "notdelivered":"Not delivered",
+    "method":"Method",
+    "paidon":"Paid on",
+    "notpaid":"Not paid",
+    "ordersummary":"Order Summary",
+    "orderstatus":"Order status",
+    "orderpayment":"Order payment",
+    "cancelorder":"Cancel order",
+    "forconfirmyourorder":"To confirm your order, make the payment of",
+    "onaccountnumber":"on the account/telephone number",
+    "reasonforcancel":"Reason for cancellation",
+    "pending":"Pending",
+    "acceptedbysupplier":"Accepted by supplier",
+    "availabletodeliver":"Available to delivery",
+    "acceptedbydeliveryman":"Accepted by the deliveryman",
+    "intransit":"In transit",
+    "atdestination":"At destination",
+    "delivered":"Delivered",
+    "deliverdetails":"Deliveryman details",
+    "name":"Name",
+    "transport":"Transport",
+    "registration":"Registration",
+    "supplierpage":"Supplier page",
+    "supplierproducts":"Supplier products",
+    "workdays":"Work days",
+    "specialty":"Specialty",
+    "iforgotmypassword":"I forgot my password",
+    "send":"Send",
+    "supplier":"Supplier",
+    "productdetails":"Product details",
+    "publicationdate":"Publication date",
+    "price":"Price",
+    "priceperunit":"Price per unit",
+
+    "quantity":"Available quantity",
+    "unit":"Unit(s)",
+    "status":"Condition",
+    "designation":"Designation",
+    "brand":"Brand/Flavor",
+    "available":"Available",
+    "unavailable":"Unavailable",
+    "discount":"discount",
+    "productdescription":"Product Description",
+    "addoncart":"Add on cart",
+    "onlyonesupplier":"In the cart, it is only allowed to add products belonging to a single supplier at a time. If you want to add products from another store, you must first remove all products from the previous store",
+    "makelogin":"Log in or register your account to be able to track the progress of your order via the platform or via SMS on your phone",
+    "musthave6digits":"*Must have at least 6 digits",
+    "confirmpassword":"Confirm your password",
+    "bankdata":"Bank data",
+    "phonenumbertransfers":"Telephone number for transfers",
+    "phonenumbertransfersoptional":"Telephone number for transfers [optional]",
+    "accounttype":"Account Type",
+    "accountnumber":"Account number",
+    "accounttypeoptional":"Account Type [optional]",
+    "accountnumberoptional":"Account number [optional]",
+    "storedetails":"Details of your store",
+    "storename":"Store/company name",
+    "storelogo":"Store logo",
+    "storedescription":"Store Description [Specialty]",
+    "province":"Province",
+    "storeaddress":"Store address [Street/Av.]",
+    "weekday":"Weekday",
+    "openingtime":"Opening time",
+    "closingtime":"Closing time",
+    "add":"Add",
+    "businessdays":"Business days and hours",
+    "create":"Create",
+    "alreadyhaveaccount":"Already have an account?",
+    "start":"Start",
+    "wanttobeoursupplier":"Do you want to be our supplier?",
+    "vehicletype":"Vehicle type",
+    "vehiclecolor":"Vehicle color",
+    "additionaldata":"Additional data",
+    "update":"Update",
+    "updateyourpassword":"Do you want to update your password?",
+    "areyousupplier":"Are you our supplier?",
+    "supplierclosetimenotice":"NOTE: If the store is closed, it is not possible to process any orders.",
+    "servicecharge": "Service charge",
+    "whichnumbertopay":"Which number do you want to pay on:",
+    "mpesapayment":"Payment via MPESA",
+    "anothernumber":"Another number",
+    "enternumber":"Enter your number:",
+    "orderhistoryclients":"Customer order history",
+    "orderhistory":"Order history",
+    "returnpolicy":"Return policy",
+    "benefits":"Benefits of buying at Nhiquela",
+    "sellerstopay":"Suppliers to pay",
+    "deliverstopay":"Deliverers to pay",
+    "guarantee":"Guarantee",
+    "paymentfromnhiquela":"Payment history",
+    "addoncartandredirect":"Add and view cart",
+    "addoncartandseeseller":"Add and see more",
+    "requestdeliveryman":"Request delivery person",
+    "takestoreinperson":"No delivery [take it to the store in person]",
+    "withguarantee":"With guarantee",
+    "warrantyperiod":"Warranty period",
+    "byorder":"By order?",
+    "orderperiod":"Estimated product delivery days",
+    "yes":"Yes",
+    "quantityinstock":"Quantity in stock",
+    "makeorder":"By order",
+    "deliveryestimate":"Delivery estimate",
+    "emaillang":"nhiquelaservicosconsultoria@gmail.com",
+    "ordername":"Requester name",
+    "orderphone":"Requester Phone",
+    "transporttypetoroder":"Type of transport to request",
+    "typeofgoodtodeliver":"Type of good to be delivered",
+    "origin":"origin address",
+    "destination":"Destination address",
+    "requestdeliverman": "Request deliverman",
+    "detailsofdeliver":"Delivery Details",
+    "immediatedeliveries":"Immediate deliveries",
+    "deliveryrequesthistory":"Delivery driver request history",
+    "alldeliveryrequesthistory":"All Delivery driver request history",
+    "hotline":"Hotline",
+    "comments":"Comments",
+    "comment":"Comment",
+    "nocomments":"No comments",
+    "rating":"Rating",
+    "leaveyourcomment":"to leave your comment",
+    "please":"Please",
+    "getlocation": "Get latitude and Longitude",
+    "aboutus":"About Us",
+    "searchfilters":"Search Filters",
+    "privacy":"Privacy Policy",
+    "broadcast":"Send message to all users"
+
+
+
+
+
+
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  }

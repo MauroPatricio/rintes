@@ -1,0 +1,60 @@
+/* 🔹 Estilização do container principal */
+.bg-color-row {
+    background: linear-gradient(135deg, #d0d2d5, #626b75); /* Azul moderno com gradiente */
+    color: #fff; /* Texto branco para contraste */
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+  }
+  
+  /* 🔹 Estilização do texto de entrega */
+  .delivery-info {
+    /* font-size: 1.2rem; */
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 8px; Espaço entre o texto e o ícone */
+  }
+  
+  /* 🔹 Ícone de relógio */
+  .delivery-info svg {
+    font-size: 1.5rem;
+    color: #7F00FF; /* Amarelo para destaque */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* 🔹 Efeito de animação no ícone ao passar o mouse */
+  .delivery-info:hover svg {
+    transform: rotate(10deg) scale(1.1);
+  }
+  
+  /* 🔹 Alerta de vendedor não autorizado */
+  .not-approved-seller {
+    background: rgba(255, 0, 0, 0.1); /* Fundo vermelho claro */
+    color: #dc3545; /* Vermelho forte */
+    padding: 8px 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.2);
+  }
+  
+  /* 🔹 Responsividade */
+  @media (max-width: 768px) {
+    .bg-color-row {
+      padding: 10px;
+    }
+  
+    .delivery-info {
+      font-size: 1rem;
+      flex-direction: column;
+    }
+  
+    .delivery-info svg {
+      font-size: 1.3rem;
+    }
+  }
+  

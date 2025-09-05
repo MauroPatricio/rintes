@@ -1,0 +1,5 @@
+GJlIpZi0DrfwSr68
+mauropatricio1_db_user
+
+
+mongodb+srv://mauropatricio1_db_user:GJlIpZi0DrfwSr68@dev-cluster.ufngyr5.mongodb.net/?retryWrites=true&w=majority&appName=dev-cluster

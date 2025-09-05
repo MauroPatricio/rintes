@@ -1,0 +1,61 @@
+/* --- Estilos do HomeScreen --- */
+
+/* Estilização do carrossel */
+.carousel-custom {
+    margin: 20px 0;
+  }
+  
+  .carousel-custom .carousel .slide {
+    background: transparent;
+  }
+  
+  .carousel-custom .carousel .control-dots .dot {
+    background: #007bff;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    transition: all 0.3s;
+  }
+  
+  .carousel-custom .carousel .control-dots .dot.selected {
+    background: #0056b3;
+    transform: scale(1.2);
+  }
+  
+  /* Estilização dos produtos */
+  .product-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Botão personalizado */
+  .customButton {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .customButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .carousel-custom .carousel .slide {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

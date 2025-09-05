@@ -1,0 +1,45 @@
+/* 🔹 Fundo da seção */
+.bg-color-row-pay {
+    background: linear-gradient(135deg, #f8f9fa, #d8dfe5); /* Gradiente suave */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* 🔹 Estilização dos ícones */
+  .info-icon-home {
+    font-size: 3rem; /* Tamanho maior para impacto */
+    color: #7F00FF; /* Azul profissional */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* 🔹 Efeito hover nos ícones */
+  .info-icon-home:hover {
+    transform: scale(1.2); /* Aumento sutil no tamanho */
+    color: #0056b3; /* Tom de azul mais escuro */
+  }
+  
+  /* 🔹 Texto dentro das colunas */
+  .bg-color-row-pay .col-md-4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* 🔹 Responsividade */
+  @media (max-width: 768px) {
+    .bg-color-row-pay {
+      flex-direction: column;
+    }
+  
+    .bg-color-row-pay .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  
