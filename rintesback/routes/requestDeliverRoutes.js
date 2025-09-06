@@ -350,7 +350,7 @@ requestDeliver.put(
 
        //  Para envio de mensagens
 
-      let msg =`Ola, o pedido ${order.code} foi entregue com sucesso. Agradecemos por escolher e confiar em nós. Nhiquela Shop - Tudo em suas mãos.`;
+      let msg =`Ola, o pedido ${order.code} foi entregue com sucesso. Agradecemos por escolher e confiar em nós. Rintes`;
  
       sendSMSToUSendIt(req,msg);
 

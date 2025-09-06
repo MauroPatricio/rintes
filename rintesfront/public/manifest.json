@@ -1,6 +1,6 @@
 {
-  "short_name": "Nhiquela",
-  "name": "Tudo em suas Mãos",
+  "short_name": "Rintes",
+  "name": "Seu carro, seu controle. Compre, acompanhe e confie.",
   "icons": [
     {
       "src": "favicon2.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "nhiquelalogo.png",
+      "src": "rintes.jpeg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "nhiquelalogo.png",
+      "src": "rintes.jpeg",
       "type": "image/png",
       "sizes": "512x512"
     }

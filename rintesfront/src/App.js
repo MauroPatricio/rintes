@@ -147,7 +147,7 @@ export function App() {
     <BrowserRouter>
       <div className="d-flex flex-column site-background">
         <Helmet>
-          <title>NHIQUELA+</title>
+          <title>Rintes</title>
         </Helmet>
         <ToastContainer position="top-right" autoClose={3000} />
 
@@ -162,7 +162,11 @@ export function App() {
             <Container>
               <LinkContainer to="/" >
                 <Navbar.Brand className="Navbar-Brand"  >
-                  NHIQUELA+
+                   <img
+                style={{ width: "9rem", height: "3rem", textAlign: "center" }}
+                src="rintes.jpeg"
+                alt="rintes"
+              />
                 </Navbar.Brand>
               </LinkContainer>
               <SearchBox />

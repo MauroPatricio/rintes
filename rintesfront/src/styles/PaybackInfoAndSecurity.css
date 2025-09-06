@@ -1,45 +1,62 @@
 /* 🔹 Fundo da seção */
 .bg-color-row-pay {
-    background: linear-gradient(135deg, #f8f9fa, #d8dfe5); /* Gradiente suave */
-    border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* 🔹 Estilização dos ícones */
-  .info-icon-home {
-    font-size: 3rem; /* Tamanho maior para impacto */
-    color: #7F00FF; /* Azul profissional */
-    margin-bottom: 10px;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
-  
-  /* 🔹 Efeito hover nos ícones */
-  .info-icon-home:hover {
-    transform: scale(1.2); /* Aumento sutil no tamanho */
-    color: #0056b3; /* Tom de azul mais escuro */
-  }
-  
-  /* 🔹 Texto dentro das colunas */
-  .bg-color-row-pay .col-md-4 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #333;
+  background: linear-gradient(135deg, #eef2f7, #d6e0f0); /* Gradiente clean */
+  border-radius: 16px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  transition: background 0.4s ease-in-out;
+}
+
+/* 🔹 Efeito hover no container */
+.bg-color-row-pay:hover {
+  background: linear-gradient(135deg, #e3eaf4, #cdd9ec); /* Leve destaque */
+}
+
+/* 🔹 Estilização dos ícones */
+.info-icon-home {
+  font-size: 3.2rem;
+  color: #7F00FF; /* Roxo moderno */
+  margin-bottom: 12px;
+  transition: transform 0.35s ease, color 0.35s ease, text-shadow 0.35s ease;
+}
+
+/* 🔹 Efeito hover nos ícones */
+.info-icon-home:hover {
+  transform: scale(1.25) rotate(5deg); /* Pequena rotação para dinamismo */
+  color: #4b0082; /* Roxo mais escuro */
+  text-shadow: 0px 4px 12px rgba(127, 0, 255, 0.3);
+}
+
+/* 🔹 Texto dentro das colunas */
+.bg-color-row-pay .col-md-4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #333;
+  padding: 24px 16px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+}
+
+/* 🔹 Efeito hover nas colunas */
+.bg-color-row-pay .col-md-4:hover {
+  transform: translateY(-8px); /* Levantamento sutil */
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 768px) {
+  .bg-color-row-pay {
+    flex-direction: column;
     padding: 20px;
-    transition: all 0.3s ease-in-out;
   }
-  
-  /* 🔹 Responsividade */
-  @media (max-width: 768px) {
-    .bg-color-row-pay {
-      flex-direction: column;
-    }
-  
-    .bg-color-row-pay .col-md-4 {
-      margin-bottom: 20px;
-    }
+
+  .bg-color-row-pay .col-md-4 {
+    margin-bottom: 20px;
   }
-  
+}

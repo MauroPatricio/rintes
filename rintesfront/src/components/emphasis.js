@@ -64,7 +64,7 @@ export default function Emphasis() {
      {popularItems && popularItems.length !== 0 && <h3>{t('featuredproducts')}</h3>} 
     <img style={{width: '90rem', height: '20rem', textAlign: 'center'}}
             src="acompanheseuspedidos.png" 
-            alt="Nhiquela" ></img>   
+            alt="Rintes" ></img>   
     <br/>
     </>
 

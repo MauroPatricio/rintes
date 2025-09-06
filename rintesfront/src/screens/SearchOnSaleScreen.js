@@ -82,9 +82,9 @@ export default function SearchOnSaleScreen() {
   return (
     <div>
       <Helmet>
-        <title>Pesquisar produtos em promoção</title>
+        <title>Pesquisar carros em promoção</title>
       </Helmet>
-      <h1><p>Pesquisar produtos em promoção</p></h1>
+      <h1><p>Pesquisar carros em promoção</p></h1>
       <Row>
         <Col md={3}>
         <CategoriesFilter></CategoriesFilter>
@@ -104,7 +104,7 @@ export default function SearchOnSaleScreen() {
                   </div>
                 </Col>
               </Row>
-              {products.length === 0 && (<MessageBox> Produtos não encontrados</MessageBox>)}
+              {products.length === 0 && (<MessageBox> Carro(s) não encontrado(s)</MessageBox>)}
             <Row>
               {products.map((product)=>(
                 <Col sm={6} lg={3} className="mb-3" key={product._id}>

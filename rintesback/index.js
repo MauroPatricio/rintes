@@ -24,7 +24,6 @@ import cartRoutes from './routes/cartRoutes.js';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { readFile } from 'fs/promises';
-import './firebase.js';
 
 // **Nova importação**
 import tipoEstabelecimentoRoutes from './routes/tipoEstabelecimentoRoutes.js';

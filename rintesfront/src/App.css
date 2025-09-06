@@ -8,9 +8,9 @@ body {
 
 /* Main Color Theme */
 :root {
-  --main-color: #7F00FF;
-  --accent-color: #5A00CC;
-  --light-color: #E8E1FF;
+  --main-color: #00563f ;     /* Verde principal */
+  --accent-color: #305a3d;   /* Verde mais escuro para hover */
+  --light-color: #E1F0E7;    /* Verde claro (em vez do lilás antigo) */
   --text-color: #333;
   --bg-color: #ffffff;
 }
@@ -82,7 +82,7 @@ form .form-control {
 /* Focus effect */
 form .form-control:focus {
   border-color: var(--main-color);
-  box-shadow: 0px 0px 10px rgba(127, 0, 255, 0.5);
+  box-shadow: 0px 0px 10px rgba(63, 112, 77, 0.5);
 }
 
 /* Icons */
@@ -167,11 +167,6 @@ form .form-control:focus {
 }
 
 /* Modal */
-/* .modal {
-  position: fixed;
-  z-index: 1000;
-} */
-
 .modal-content {
   background-color: white;
   padding: 25px;
@@ -236,57 +231,57 @@ form .form-control:focus {
   }
 }
 
-.link-none{
-  text-decoration: none; /* Remove o sublinhado */
-  color: inherit; /* Mantém a cor do texto padrão */
+.link-none {
+  text-decoration: none;
+  color: inherit;
 }
+
 .navbar {
-  background: rgba(255, 255, 255, 0.95) !important; /* Fundo branco com leve transparência */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar */
-  padding: 12px 20px; /* Espaçamento interno */
-  transition: all 0.3s ease-in-out; /* Transição suave */
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #333 !important; /* Cor do texto */
-  font-weight: 600; /* Negrito para maior destaque */
-  padding: 10px 15px; /* Melhor espaçamento entre os itens */
+  color: #333 !important;
+  font-weight: 600;
+  padding: 10px 15px;
   transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #007bff !important; /* Azul moderno no hover */
-  transform: translateY(-2px); /* Efeito de elevação sutil */
+  color: var(--main-color) !important;
+  transform: translateY(-2px);
 }
 
 .navbar-toggler {
-  border: none; /* Remove bordas do botão do menu */
+  border: none;
   outline: none;
 }
 
 .navbar-toggler:focus {
-  box-shadow: none; /* Remove o efeito de foco padrão */
+  box-shadow: none;
 }
 
 /* 🔹 Ajuste para evitar sobreposição no conteúdo abaixo do Navbar */
 .main-content {
-  margin-top: 80px; /* Ajuste conforme a altura do Navbar */
+  margin-top: 40px;
 }
 
 @media (max-width: 991px) {
   .navbar {
-    padding: 10px 15px; /* Ajuste para telas menores */
+    padding: 10px 15px;
   }
   .navbar-nav {
-    text-align: center; /* Centraliza os itens no modo mobile */
+    text-align: center;
   }
   .main-content {
-    margin-top: 100px; /* Ajuste maior para telas menores se necessário */
+    margin-top: 100px;
   }
 }
 
 /* Tipos de Estabelecimento */
-
 .admin-container {
   max-width: 600px;
   margin: 20px auto;
@@ -304,7 +299,7 @@ h2 {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
-  flex-wrap: wrap; /* Permite quebrar para telas menores */
+  flex-wrap: wrap;
 }
 
 input {
@@ -317,14 +312,14 @@ input {
 button {
   padding: 8px 12px;
   border: none;
-  background: #28a745;
+  background: var(--main-color);
   color: white;
   cursor: pointer;
   border-radius: 4px;
 }
 
 button:hover {
-  background: #218838;
+  background: var(--accent-color);
 }
 
 .tipo-table {
@@ -339,8 +334,8 @@ button:hover {
 }
 
 .tipo-table th {
-  background-color: #7F00FF;
-  color: white; /* Alterado para branco */
+  background-color: var(--main-color);
+  color: white;
 }
 
 .delete-btn {
@@ -358,15 +353,15 @@ button:hover {
 /* Responsividade para telas menores */
 @media (max-width: 600px) {
   .form-container {
-    flex-direction: column; /* Faz os itens ficarem em coluna */
+    flex-direction: column;
     align-items: center;
   }
 
   input, button {
-    width: 100%; /* Faz os elementos ocuparem toda a largura */
+    width: 100%;
   }
 
   .tipo-table th, .tipo-table td {
-    padding: 6px; /* Reduz espaço interno para melhor adaptação */
+    padding: 6px;
   }
 }
